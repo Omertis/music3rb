@@ -266,7 +266,7 @@ msg.author.send("Commands Music " + `  **
 
 client.on('ready', function(){
     var ms = 60000 ;
-    var setGame = ['$help | $دعوه','${client.guilds.size} server|${client.users.size} Users'];
+    var setGame = [`$help | $دعوه`,`${client.guilds.size} server|${client.users.size} Users`];
     var i = -1;
     var j = 0;
     setInterval(function (){

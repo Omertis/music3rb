@@ -289,4 +289,4 @@ client.on('ready', function(){
 
 
  
-client.login("NDQwNjU5NDI4MDEwODg1MTUx.Dck7lw.lkN6HrgZaaCMSR5vajkYvQlszcY");
+client.login(process.env.BOT_TOKEN);
